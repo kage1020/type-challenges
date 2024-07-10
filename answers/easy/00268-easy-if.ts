@@ -22,6 +22,8 @@
 
 type If<C, T, F> = C extends true ? T : F
 
+// Truthyは extends trueで判定
+
 /* _____________ テストケース _____________ */
 import type { Equal, Expect } from '@type-challenges/utils'
 
